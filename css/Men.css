@@ -1,0 +1,95 @@
+.sp {
+    border-bottom: 2px solid orange;
+    padding: 1px;
+}
+
+.hada {
+    box-shadow: 0 4px 8px rgb(180, 177, 177);
+}
+
+.card {
+    width: 18rem;
+    height: 409px;
+    border: 10px solid black;
+    white-space: nowrap;
+    transition: all 1s ease;
+    margin-top: 110px;
+}
+.immgCard {
+    aspect-ratio: 1/1;
+}
+.divStock{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar-brand{
+    margin:100px;
+}
+ul{
+    margin-left: 200px;
+    gap: 20px;
+}
+.pStock{
+    color: green;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.card:hover .UiBtn {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.womenRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('../youtube/media/men2;.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 10px;
+}
+.rab3aRow{
+    margin-bottom: 8%;
+}
+
+/* From Uiverse.io by ferlagher */
+.UiBtn {
+    position: relative;
+    font-size: 1.2em;
+    padding: 0.7em 1.4em;
+    background-color: green;
+    text-decoration: none;
+    border: none;
+    border-radius: 0.5em;
+    color: #DEDEDE;
+    transform: translateY(20px);
+    opacity: 0;
+    box-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.3);
+    transition: all 0.8s ease;
+}
+
+.UiBtn::before {
+    position: absolute;
+    content: '';
+    height: 0;
+    width: 0;
+    top: 0;
+    left: 0;
+    background: linear-gradient(135deg, rgba(33, 33, 33, 1) 0%, rgba(33, 33, 33, 1) 50%, rgb(21, 116, 2) 50%, rgb(3, 145, 8) 60%);
+    border-radius: 0 0 0.5em 0;
+    box-shadow: 0.2em 0.2em 0.2em rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+}
+
+.UiBtn:hover::before {
+    width: 1.6em;
+    height: 1.6em;
+}
+
+.UiBtn:active {
+    box-shadow: 0.2em 0.2em 0.3em rgba(0, 0, 0, 0.3);
+    transform: translate(0.1em, 0.1em);
+}

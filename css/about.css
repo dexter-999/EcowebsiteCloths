@@ -1,0 +1,70 @@
+.hada {
+    box-shadow: 0 4px 8px rgb(180, 177, 177);
+}
+
+.sp {
+    border-bottom: 2px solid orange;
+    padding: 1px;
+}
+.tswira1{
+    height: 190px;
+    padding: 10px;
+    border-radius: 15px;
+    background-image: url('../media/spadri.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+.tswira2{
+    height: 190px;
+    padding: 10px;
+    border-radius: 15px;
+    background-image: url('../media/spadri2.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+.tswira3{
+    height: 190px;
+    padding: 10px;
+    border-radius: 15px;
+    background-image: url('../media/spadri3.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+.tswira4{
+    height: 190px;
+    padding: 10px;
+    border-radius: 15px;
+    background-image: url('../media/men10.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+.APPRow{
+    background-color: rgb(212, 212, 212);
+    border-radius: 20px;
+}
+#paragraph1,#paragraph2{
+    color: orange;
+    font-size: 40px;
+    /* padding: 5px; */
+    font-weight: bold;
+}
+.navbar-brand{
+    margin:100px;
+}
+ul{
+    margin-left: 200px;
+    gap: 20px;
+}
+.textt{
+    font-size: 30px;
+    font-weight: bold;
+    color: orange;
+}

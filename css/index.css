@@ -1,0 +1,123 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background: linear-gradient(rgb(220, 216, 216));
+
+}
+
+.firstRow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    mix-blend-mode: darken;
+}
+
+.hada {
+    box-shadow: 0 4px 8px rgb(180, 177, 177);
+    margin-bottom: 0;
+}
+
+.hadaadi {
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.img {
+    transition: all 0.9s ease;
+
+}
+.navbar-brand{
+    margin:100px;
+}
+ul{
+    margin-left: 200px;
+    gap: 20px;
+}
+
+.hadaadi:hover .img {
+    transform: scale(1.2);
+}
+
+.sp {
+    border-bottom: 2px solid orange;
+    padding: 1px;
+}
+
+.navv {
+    margin-bottom: 0;
+}
+
+.hadRow {
+    margin-bottom: 7%;
+}
+
+.card {
+    width: 18rem;
+    height: 450px;
+    border: 10px solid black;
+    transition: all 0.5s ease;
+}
+
+.card:hover .UiBtn {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.womenRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('../media/men2;.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 10px;
+}
+
+/* From Uiverse.io by ferlagher */
+.UiBtn {
+    position: relative;
+    font-size: 1.2em;
+    padding: 0.7em 1.4em;
+    background-color: green;
+    text-decoration: none;
+    border: none;
+    border-radius: 0.5em;
+    color: #DEDEDE;
+    transform: translateY(20px);
+    opacity: 0;
+    box-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.3);
+    transition: all 0.8s ease;
+}
+
+.UiBtn::before {
+    position: absolute;
+    content: '';
+    height: 0;
+    width: 0;
+    top: 0;
+    left: 0;
+    background: linear-gradient(135deg, rgba(33, 33, 33, 1) 0%, rgba(33, 33, 33, 1) 50%, rgb(21, 116, 2) 50%, rgb(3, 145, 8) 60%);
+    border-radius: 0 0 0.5em 0;
+    box-shadow: 0.2em 0.2em 0.2em rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+}
+
+.UiBtn:hover::before {
+    width: 1.6em;
+    height: 1.6em;
+}
+
+.UiBtn:active {
+    box-shadow: 0.2em 0.2em 0.3em rgba(0, 0, 0, 0.3);
+    transform: translate(0.1em, 0.1em);
+}
